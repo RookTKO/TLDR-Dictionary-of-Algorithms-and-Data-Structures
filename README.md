@@ -1,5 +1,5 @@
 # Too Long Didn't Read Dictionary of Algorithms and Data Structures
-> C# Repository dedicated to self learning of data structures and algorithms.
+> C# Repository dedicated to a breakdown of data structures and algorithms into short snippets and layman terms.
 ## Table of Contents
 
 - [Time Complexity](#Time-Complexity )
