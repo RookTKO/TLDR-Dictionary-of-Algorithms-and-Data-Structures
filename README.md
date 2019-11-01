@@ -2,9 +2,9 @@
 > C# Repository dedicated to self learning of data structures and algorithms.
 ## Table of Contents
 
-- [Time & Space Complexity](#Time & Space Complexity)
+- [Time & Space Complexity](#Time )
 - [Algorithms](#Algorithms)
-- [Data Structures](#Data Structures)
+- [Data Structures](#Data)
 - [Contributing](#contributing)
 - [License](#license)
 
