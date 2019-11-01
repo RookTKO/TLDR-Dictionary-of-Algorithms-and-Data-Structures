@@ -11,6 +11,11 @@
 
 ## Time & Space Complexity
 
+###Big O
+###Big Omega
+###Big Theta
+
+
 ```
 #TODO
 
