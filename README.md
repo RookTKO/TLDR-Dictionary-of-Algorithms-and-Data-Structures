@@ -2,18 +2,18 @@
 > C# Repository dedicated to self learning of data structures and algorithms.
 ## Table of Contents
 
-- [Time & Space Complexity](#Time )
+- [Time & Space Complexity](#Time-&-Space-Complexity )
 - [Algorithms](#Algorithms)
-- [Data Structures](#Data)
+- [Data Structures](#Data-Structures)
 - [Contributing](#contributing)
 - [License](#license)
 
 
 ## Time & Space Complexity
 
-###Big O
-###Big Omega
-###Big Theta
+###B ig O
+### Big Omega
+### Big Theta
 
 
 ```
