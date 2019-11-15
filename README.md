@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - [Time Complexity](#Time-Complexity )
+  - [Big O](#Big-O)
 - [Space Complexity](#Space-Complexity )
 - [Algorithms](#Algorithms)
 - [Data Structures](#Data-Structures)
