@@ -8,7 +8,7 @@
   - [Big Theta](#Big-Theta)
 - [Space Complexity](#Space-Complexity )
 - [Algorithms](#Algorithms)
-  - [Binary Search](#Binary-Search)
+  - [Binary Search](##Binary-Search)
 - [Data Structures](#Data-Structures)
 - [Contributing](#contributing)
 - [License](#license)
