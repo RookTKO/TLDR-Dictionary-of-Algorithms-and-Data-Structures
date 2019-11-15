@@ -31,7 +31,14 @@ Time complexity is the computational complexity that it takes for a program/func
 ## Algorithms
 
 ### Binary Search :
-Also known as half-interval search, logarithmic search, or binary chop. It is a search algorithm that finds the positon of a target value within a sorted array.
+#### Description: 
+Also known as **half-interval search**, **logarithmic search**, or **binary chop**. It is a search algorithm that finds the positon of a target value within a **_sorted_** array.
+#### Functionality:
+#### Performance:
++ Worst-Case time complexity: O(log n)
++ Best-case time complexity: O(1)
++ Worst-case space complexity: O(1)
+
 ```
 #TODO
 ```
