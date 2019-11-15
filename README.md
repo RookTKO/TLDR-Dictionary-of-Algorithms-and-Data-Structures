@@ -38,7 +38,7 @@ Big Omega descripes the opposite of Big O. It descripes the lowest bound of time
 ## Algorithms
 
 ### Searching :
-
+***
 #### Binary Search :
 ##### Description: 
 Also known as **half-interval search**, **logarithmic search**, or **binary chop**. It is a search algorithm that finds the positon of a target value within a **_sorted_** array.
@@ -63,6 +63,7 @@ alert(s);
 
 ### Sorting :
 
+***
 #### Bubble Sort :
 ##### Description: 
 Also known as **sinking sort**. It is a sorting algorithm that loops through an array until it is sorted by swaping adjacent elements in either ascending or descending order.
@@ -82,7 +83,7 @@ var s = "JavaScript syntax highlighting";
 alert(s);
 ```
 
-
+***
 #### Insertion Sort :
 ##### Description: 
 One of the simplest sorting algorithms. You divide your array into two portions, a sorted one and an unsorted one. On each pass the next unsorted array element is compared with all of the sorted elements and moved into its proper position.
