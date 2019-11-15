@@ -39,6 +39,9 @@ Big Omega descripes the opposite of Big O. It descripes the lowest bound of time
 Also known as **half-interval search**, **logarithmic search**, or **binary chop**. It is a search algorithm that finds the positon of a target value within a **_sorted_** array.
 #### Functionality:
 Binary search performs a search comparing the target value against a pivot point (middle of the array). If they are not equal (middle of the array == target value) then you remove the half that the target value could not be in and perform the search again until the value is found. If the search ends with the remaining half being empty then the target is not in the array.
+
+![alt text](Images/binarySearch.gif "Binary search vs Sequential Search")
+
 #### Performance:
 + Worst-Case time complexity:		O(log n)
 + Best-case time complexity:		O(1)
