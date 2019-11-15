@@ -20,7 +20,7 @@ Time complexity is the computational complexity that it takes for a program/func
 ### Big O
 Big O specifcally describes the upper bound of time, or **best case scenario**.
 
-> ![alt text](Images\bigOCheatSheet.JPG"Binary search vs Sequential Search")
+![alt text](Images/bigOCheatSheet.JPG"Binary search vs Sequential Search")
 > Refrence: https://www.bigocheatsheet.com/
 ### Big Omega
 Big Omega descripes the opposite of Big O. It descripes the lowest bound of time, or **worst case scenario**.
@@ -62,9 +62,9 @@ Binary search performs a search comparing the target value against a pivot point
 ##### Description: 
 Also known as **sinking sort**. It is a sorting algorithm that loops through an array until it is sorted by swaping adjacent elements in either ascending or descending order.
 ##### Functionality:
-	You start looping through the array swapping elements based on if they are supposed to be in ascending or descending order. You keep passing through the list until it is sorted. The elements "bubble" to the top. The algroithm is slow and impractial for most problems.
+You start looping through the array swapping elements based on if they are supposed to be in ascending or descending order. You keep passing through the list until it is sorted. The elements "bubble" to the top. The algroithm is slow and impractial for most problems.
 
-![alt text](Images\bubbleSort.gif "Bubble Sort Example")
+![alt text](Images/bubbleSort.gif "Bubble Sort Example")
 
 ##### Performance:
 + Worst-Case time complexity:		O(n^2)
