@@ -52,13 +52,18 @@ Binary search performs a search comparing the target value against a pivot point
 + Best-case time complexity:		Ω(1)
 + Worst-case space complexity:		O(1)
 
+##### Example:
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
 
 
 
 
 ### Sorting :
 
-#### Bubble Search :
+#### Bubble Sort :
 ##### Description: 
 Also known as **sinking sort**. It is a sorting algorithm that loops through an array until it is sorted by swaping adjacent elements in either ascending or descending order.
 ##### Functionality:
@@ -71,7 +76,33 @@ You start looping through the array swapping elements based on if they are suppo
 + Best-case time complexity:		Ω(n)
 + Worst-case space complexity:		O(1)
 
+##### Example:
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
 
+
+#### Insertion Sort :
+##### Description: 
+One of the simplest sorting algorithms. You divide your array into two portions, a sorted one and an unsorted one. On each pass the next unsorted array element is compared with all of the sorted elements and moved into its proper position.
+##### Functionality:
+Insertion sort consists of n -1 passes. For pass = 2 through n, insertion sort ensures that the elements in position 1 through p are in sorted order. 
+
+![alt text](Images/insertionSort.gif "Insertion Sort Example")
+> A graphical example of insertion sort. The partial sorted list (black) initially contains only the first element in the list. With each iteration one element (red) is removed from the "not yet checked for order" input data and inserted in-place into the sorted list.
+> Refrence: https://en.wikipedia.org/wiki/Insertion_sort
+
+##### Performance:
++ Worst-Case time complexity:		O(n^2)
++ Best-case time complexity:		Ω(n)
++ Worst-case space complexity:		O(1)
+
+##### Example:
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
 
 
 
