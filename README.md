@@ -20,7 +20,7 @@ Time complexity is the computational complexity that it takes for a program/func
 ### Big O
 Big O specifcally describes the upper bound of time, or **best case scenario**.
 
-![alt text](Images/bigOCheatSheet.JPG"Binary search vs Sequential Search")
+![alt text](Images/bigOCheatSheet.JPG "Binary search vs Sequential Search")
 > Refrence: https://www.bigocheatsheet.com/
 ### Big Omega
 Big Omega descripes the opposite of Big O. It descripes the lowest bound of time, or **worst case scenario**.
