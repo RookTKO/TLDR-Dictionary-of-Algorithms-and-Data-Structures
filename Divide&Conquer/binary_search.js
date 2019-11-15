@@ -16,10 +16,21 @@
 */
 
 var search = function (nums, target) {
-    for (let i = 0; i < nums.length; i++) {
-        if (nums[i] == target) {
-            return i;
+    let left = 0, right = nums.length, pivot;
+
+    //Check if left is less then or equal to right, divide pivot in half 
+    // and check for target value
+    while (left <= right) {
+        pivot = Math.floor(left + (right - left) / 2);
+        if (nums[pivot] == target) {
+            return pivot;
+        }
+        if (target < nums[pivot]) {
+            right = pivot - 1;
+        } else {
+            left = pivot + 1;
         }
     }
-    return -1;
+    return -1; //If target is out of bounds return -1
+
 };
