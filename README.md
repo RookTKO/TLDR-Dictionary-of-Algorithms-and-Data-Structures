@@ -4,8 +4,11 @@
 
 - [Time Complexity](#Time-Complexity )
   - [Big O](#Big-O)
+  - [Big Omega](#Big-Omega)
+  - [Big Theta](#Big-Theta)
 - [Space Complexity](#Space-Complexity )
 - [Algorithms](#Algorithms)
+  - [Binary Search](#Binary-Search)
 - [Data Structures](#Data-Structures)
 - [Contributing](#contributing)
 - [License](#license)
@@ -15,11 +18,11 @@
 
 Time complexity is the computational complexity that it takes for a program/function to iterate through the operations by the algorithms in that program.
 ### Big O
-> Big O specifcally describes the upper bound of time, or **best case scenario**.
+Big O specifcally describes the upper bound of time, or **best case scenario**.
 ### Big Omega
-> Big Omega descripes the opposite of Big O. It descripes the lowest bound of time, or **worst case scenario**.
+Big Omega descripes the opposite of Big O. It descripes the lowest bound of time, or **worst case scenario**.
 ### Big Theta
->
+
 
 ## Space Complexity
 
