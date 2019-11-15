@@ -18,6 +18,11 @@
  * 
 */
 
+/**
+ * Simple Binary Search
+ * @param {array} nums
+ * @param {integer} target
+ */
 var search = function (nums, target) {
     let left = 0, right = nums.length, pivot;
 
@@ -37,3 +42,28 @@ var search = function (nums, target) {
     return -1; //If target is out of bounds return -1
 
 };
+
+
+/**
+ * Sort then Binary Search
+ * @param {array} nums
+ * @param {integer} target
+ */
+//TODO
+var search2 = function (nums, target) {
+    let l = 0, r = 0; //For sorting l and r are current and past
+    for (let i = 0; i <= nums.length; i++) {
+        if (i == 0) {
+            l = nums[i];
+        }
+        if (l > nums[i]) {
+            r = l;
+            l = nums[i];
+        }
+    };
+    return nums
+};
+
+let testCase = search2([4, 5, 6, 7, 0, 1, 2], 0);
+
+console.log(testCase);
