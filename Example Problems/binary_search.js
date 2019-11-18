@@ -45,7 +45,7 @@ var search = function (nums, target) {
 
 
 /**
- * Sort then Binary Search
+ * Bubble Sort then Binary Search
  * @param {array} nums
  * @param {integer} target
  */
