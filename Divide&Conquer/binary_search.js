@@ -1,5 +1,0 @@
-/*
- * Binary Search
- * Description:
- * 
-*/
