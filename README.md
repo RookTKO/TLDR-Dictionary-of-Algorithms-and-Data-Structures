@@ -54,8 +54,30 @@ Binary search performs a search comparing the target value against a pivot point
 
 ##### Example:
 ```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+/**
+ * Simple Binary Search
+ * @param {array} nums
+ * @param {integer} target
+ */
+var search = function (nums, target) {
+    let left = 0, right = nums.length, pivot;
+
+    //Check if left is less then or equal to right, divide pivot in half 
+    // and check for target value
+    while (left <= right) {
+        pivot = Math.floor(left + (right - left) / 2);
+        if (nums[pivot] == target) {
+            return pivot;
+        }
+        if (target < nums[pivot]) {
+            right = pivot - 1;
+        } else {
+            left = pivot + 1;
+        }
+    }
+    return -1; //If target is out of bounds return -1
+
+};
 ```
 
 
