@@ -101,8 +101,39 @@ You start looping through the array swapping elements based on if they are suppo
 
 ##### Example:
 ```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+/**
+ * Bubble Sort 
+ * @param {array} nums
+ * @param {integer} target
+ */
+//TODO
+var search2 = function (nums) {
+    let l = 0, r = 0; //For sorting l and r are current and past
+    let swap;
+do{
+  swap = false;
+    for (let i = 0; i <= nums.length; i++) {
+        if (i == 0) {
+            l = nums[i];
+        }else{
+          l = nums[i-1];
+        };
+        if (l > nums[i]) {
+          swap = true;
+            r = nums[i];
+            nums[i] = l;
+            nums[i-1] = r;
+        }
+    }
+}while(swap);
+
+;
+    return nums
+};
+
+let testCase = search2([4, 5, 6, 7, 0, 1, 2]);
+
+console.log(testCase);
 ```
 
 ***
@@ -123,8 +154,24 @@ Insertion sort consists of n -1 passes. For pass = 2 through n, insertion sort e
 
 ##### Example:
 ```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+const insertionSort = arr => {
+  const len = arr.length;
+  for (let i = 0; i < len; i++) {
+    let cv = arr[i];
+    let j;
+
+    for (j = i - 1; j >= 0 && arr[j] > cv; j--) {
+      arr[j + 1] = arr[j];
+    }
+    arr[j + 1] = cv;
+  }
+  return arr;
+};
+
+
+let arr = [21,4,1,2,8,11,92,22,10,5];
+console.log(insertionSort(arr));
+
 ```
 
 
