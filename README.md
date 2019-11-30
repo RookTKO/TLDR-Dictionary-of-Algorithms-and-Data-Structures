@@ -174,7 +174,53 @@ console.log(insertionSort(arr));
 
 ```
 
+***
+#### Merge Sort :
+##### Description: 
+In computer science, merge sort (also commonly spelled mergesort) is an efficient, general-purpose, comparison-based sorting algorithm. Most implementations produce a stable sort, which means that the order of equal elements is the same in the input and output. Merge sort is a divide and conquer algorithm that was invented by John von Neumann in 1945.
+##### Functionality:
+Merge Sort divides an array into n ammount of elements consisting of 1 element and compares those elements to adjacent elements and merges them.
 
+![alt text](Images/merge_sort.gif "Merge Sort Example")
+> An example of merge sort. First divide the list into the smallest unit (1 element), then compare each element with the adjacent list to sort and merge the two adjacent lists. Finally all the elements are sorted and merged.
+> Refrence: https://en.wikipedia.org/wiki/Merge_sort
+
+##### Performance:
++ Worst-Case time complexity:		O(n log n)
++ Best-case time complexity:		Ω(n log n)
++ Worst-case space complexity:		O(n)
+
+##### Example:
+```javascript
+function merge(l, r) {
+    let newArr = [];
+
+    while (l.length && r.length) {
+        if (l[0] < r[0]) {
+            newArr.push(l.shift());
+        }
+        else {
+            newArr.push(r.shift());
+        }
+    }
+
+    return newArr.concat(l.slice().concat(r.slice()));
+}
+
+function sort(arr) {
+    if (arr.length < 2) {
+        return arr;
+    }
+    const m = Math.floor(arr.length / 2);
+    const l = arr.slice(0, m);
+    const r = arr.slice(m);
+
+    return merge(sort(l), sort(r));
+}
+
+console.log(sort(arr));
+```
+***
 
 
 
