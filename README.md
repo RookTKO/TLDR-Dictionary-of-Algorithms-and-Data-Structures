@@ -230,18 +230,37 @@ console.log(sort(arr));
 ```
 ***
 
+#### Quick Sort :
+##### Description: 
+Quicksort (sometimes called partition-exchange sort) is a comparison sort, meaning that it can sort items of any type for which a "less-than" relation (formally, a total order) is defined.
+##### Functionality:
+Merge Sort divides an array into n ammount of elements consisting of 1 element and compares those elements to adjacent elements and merges them.
 
+![alt text](Images/quick_sort.gif "Quick Sort Example")
+> Animated visualization of the quicksort algorithm. The horizontal lines are pivot values.
+> Refrence: https://en.wikipedia.org/wiki/Merge_sort
 
+##### Performance:
++ Worst-Case time complexity:		O(n^2)
++ Best-case time complexity:		Ω(n log n)
++ Worst-case space complexity:		O(log n)
+
+##### Example:
+```javascript
 
 ```
-#TODO
-```
+***
 
 ## Data Structures
 
-```
-#TODO
-```
+#### Arrays
+#### Linked lists
+- Collection of data elements, called nodes
+- Contains refrence to the next node in the list
+- Hold whatever data the application needs
+#### Stacks and queues
+#### Trees
+#### Hash tables
 
 
 
