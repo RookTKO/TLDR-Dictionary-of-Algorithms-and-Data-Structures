@@ -33,11 +33,7 @@ Big Omega descripes the opposite of Big O. It descripes the lowest bound of time
 
 ## Space Complexity
 
-###
-```
-#TODO
-
-```
+Space complexity is a measure of the amount of working memory an algorithm needs.
 
 ## Algorithms
 
