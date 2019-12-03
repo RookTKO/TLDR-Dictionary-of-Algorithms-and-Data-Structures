@@ -26,11 +26,19 @@ Big O specifcally describes the upper bound of time, or **best case scenario**.
 
 ![alt text](Images/bigOCheatSheet.JPG "Binary search vs Sequential Search")
 > Refrence: https://www.bigocheatsheet.com/
-### Big Omega
+### Big Omega Ω
 Big Omega descripes the opposite of Big O. It descripes the lowest bound of time, or **worst case scenario**.
-### Big Theta
+### Big Theta Θ
+Big Theta is a tight bound, meaning while Big O tells you an algorithm is at least **this** fast and Big Ω tells you an algorithm is at least **this** slow, in Big Θ your algorithm is never be better or worse then the tight bound that it shows you. It doesn't have worse or best case scenarios. 
 
-
+### Common Big O Terms
+| Notation   	| Description   	|
+|------------	|---------------	|
+| O(1)       	| Constant Time 	|
+| O(log n)   	| Logarithmic   	|
+| O(n)       	| Linear        	|
+| O(n log n) 	| Log-linear    	|
+| O(n^2)     	| Quadratic     	|
 ## Space Complexity
 
 Space complexity is a measure of the amount of working memory an algorithm needs.
