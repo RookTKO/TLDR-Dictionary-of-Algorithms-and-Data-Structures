@@ -2,7 +2,7 @@ const hash = (key, size) => {
     let hashedKey = 0;
 
     for (let i; i < key.length; i++) {
-        hashedKey = key.charCodeAt(i);
+        hashedKey += key.charCodeAt(i);
     }
 
     return hashedKey % size;
